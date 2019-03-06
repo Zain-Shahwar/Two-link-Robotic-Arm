@@ -77,11 +77,11 @@ y = cell2mat(raw(:, 3))/1000;
 
 % Clear temporary variables
 clearvars filename delimiter formatSpec fileID dataArray ans raw col numericData rawData row regexstr result numbers invalidThousandsSeparator thousandsRegExp;
-
-% L(1) = Link([0      0      0.20       0      0      0]);
-% L(2) = Link([0      0      0.15       0      0      0]);
+%% Create your Robotic Arm
+L(1) = Link([0      0      0.20       0      0      0]);
+L(2) = Link([0      0      0.15       0      0      0]);
 % % Build a serial robot object
-% R2 = SerialLink(L(1:2), 'name', 'TwoLink');
+R2 = SerialLink(L(1:2), 'name', 'TwoLink');
 % 
 % % Robot base coordinates (cartesian space)
 % R2.base=transl(0,0,0);
