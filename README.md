@@ -8,7 +8,7 @@ The objective to learn and implement the basics of mathematics and physics behin
 1. Transformation and orientation of 2D and 3D planes. 
 2. Perform Inverse and Forward Kinematics of serial robot and visualize the end effector pose in 3D graph.
 3. Perform Inverse and Forward dynamics using Euler-Lagrangian or Newton Euler algorithm. 
-4. Implementation of PID control in joint and Cartesian space to control each joint position.
+4. Implementation of PID control in joint and Cartesian space to control each joint of a robot(position and orientation).
 5. Trajactory planning to find the optimal solution to go from reference point to the goal point.
 
 After completing all the above points, I have also show how to use G-code and M-code as an input and plot the given reference 2D shapes or images.
