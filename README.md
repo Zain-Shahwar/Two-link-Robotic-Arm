@@ -3,7 +3,7 @@ Design and Development of Two link Robotic Arm in Matlab using Robotic Toolbox f
 
 # INTRODUCTION:
 This a hobby project which I have done in Matlab. The motivation behind this project is to learn more about robotics using Matlab.
-The objective to learn and implement the basics of methamatics and physics behind the development of manipulator in an environment where I can easily simulation and visualize the position and orientaion of robotic arm. I started from the very basics and cover the following points given below:
+The objective to learn and implement the basics of mathematics and physics behind the development of manipulator in an environment where I can easily simulation and visualize the position and orientaion of robotic arm. I started from the very basics and cover the following points given below:
 
 1. From the transformation and orientation of plane from one point to the other, 
 2. Perform Inverse and Forward Kinematics of serial robot and visualize the end effector pose in 3D graph.
